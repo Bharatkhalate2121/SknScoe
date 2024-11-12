@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
 
+import Header from "./components/Header"
+import './App.css';
+import Slider from "./components/Slider"
+import Message from "./components/Message";
+import Footer from "./components/Footer";
+import { data } from "./utils/Context";
+import { useState } from "react";
+
+
+const abc="bharat"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <data.Provider value={abc}>
+
+      <Header/>
+      <Slider/>
+      <Message></Message>
+      <Footer/>
+
+      </data.Provider>
     </div>
   );
 }
