@@ -14,7 +14,6 @@ function App() {
   return (
     <div className="App">
       <data.Provider value={abc}>
-
       <Header/>
       <Slider/>
       <Message></Message>

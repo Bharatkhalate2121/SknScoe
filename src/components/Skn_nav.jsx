@@ -7,7 +7,7 @@ export default function Sec_nav() {
     return (
         <div style={{ position: "fixed", top: 0, zIndex: 100, }} className="ml-[80%] mt-56 bg-transparent">
             {disp?
-            (<Iframe url="https://copilotstudio.microsoft.com/environments/Default-f75c8e0a-6f5f-4490-82be-b4ca7dcf6f32/bots/cr5ec_copilot/webchat?_version_=2"
+            (<Iframe url= "https://copilotstudio.microsoft.com/environments/Default-22ef54fc-a415-4772-98a3-badccd4983cc/bots/crf5d_agent/webchat?_version_=2&enableFileAttachment=true"//"https://copilotstudio.microsoft.com/environments/Default-f75c8e0a-6f5f-4490-82be-b4ca7dcf6f32/bots/cr5ec_copilot/webchat?_version_=2"
                 id=""
                 display="block"
                 className="h-96 w-72  border bg-white  z-[100]"
