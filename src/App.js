@@ -6,6 +6,7 @@ import Message from "./components/Message";
 import Footer from "./components/Footer";
 import { data } from "./utils/Context";
 import { useState } from "react";
+import Skn_nav from "./components/Skn_nav";
 
 
 const abc="bharat"
@@ -17,9 +18,9 @@ function App() {
       <Header/>
       <Slider/>
       <Message></Message>
+      <Skn_nav/>
       <Footer/>
-
-      </data.Provider>
+      </data.Provider> 
     </div>
   );
 }
